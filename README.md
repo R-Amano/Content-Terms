@@ -1,1 +1,1 @@
-# R-Amano/teams
+# R-Amano/terms
