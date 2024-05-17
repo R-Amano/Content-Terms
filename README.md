@@ -16,7 +16,7 @@
 
 ## ライセンス
 コード、及び文章の利用はライセンスファイルに記載されています。<br>
-https://github.com/R-Amano/terms/blob/main/LICENSE
+[LICENSEはこちら](https://github.com/R-Amano/terms/blob/main/LICENSE)
 <br><br>
 
 
