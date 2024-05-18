@@ -1,4 +1,4 @@
-# R-Amano/terms README (日本語)
+# R-Amano/Content-Terms README (日本語)
 
 ## ようこそ！
 このリポジトリは、Git Pages を使ったウェブサイトの構築と学習を目的に作成しました。  
