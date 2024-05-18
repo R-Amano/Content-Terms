@@ -12,6 +12,8 @@
 ## 参考資料
 Fetch API  
 https://qiita.com/onioni1109/items/4a646a6fbd4ddd0a8073  
+innerHtml
+https://qiita.com/mzmz__02/items/7bcbce347bc3c5d64b93  
 
 ## 進捗
 リポジトリの目標は達成していません。(おおよそ10%未満)  
