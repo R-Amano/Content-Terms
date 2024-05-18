@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="ja">
 
   <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" />
     <title>天乃涼介配布作品利用規約</title>
   </head>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            })
+            .catch(error => console.error('Error fetching content:', error));
+    });
+  </script>
 
   <body>
     <h1>配布作品（リソースパック・アドオン）利用規約</h1>
