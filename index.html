@@ -8,12 +8,21 @@
     <title>天乃涼介配布作品利用規約</title>
   </head>
 
-  <script>
-
-  </script>
-
   <body>
+    <p id="test-text"></p>
     <h1>配布作品（リソースパック・アドオン）利用規約</h1>
+
+    <script>
+      fetch('test.txt')
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById('test-text').textContent = data;
+        })
+        .catch((error) => {
+          document.getElementById('test-text').textContent = error;
+        });
+    </script>
+
   </body>
 
 </html>
