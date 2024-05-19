@@ -20,8 +20,9 @@ p{
 
 li{
   color: white;
-  margin-top: 4px;
-  margin-bottom: 4px ;
+  margin-top: 5px;
+  margin-bottom: 5px ;
+  line-height: 1.5;
 }
 
 body{
