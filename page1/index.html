@@ -16,6 +16,8 @@
       <div id="body-div">
         <h1>配布作品（リソースパック・アドオン）利用規約</h1>
         <div id="content1"></div>
+        <div id="content2"></div>
+        <div id="content3"></div>
       </div>
     </div>
 
@@ -35,6 +37,11 @@
         .then((response) => response.text())
         .then((data) => { document.getElementById('content1').innerHTML = data;})
         .catch((error) => { document.getElementById('content1').innerHTML = error;});
+
+        fetch('../terms/terms5.html')
+        .then((response) => response.text())
+        .then((data) => { document.getElementById('content3').innerHTML = data;})
+        .catch((error) => { document.getElementById('content3').innerHTML = error;});
     </script>
   </body>
 </html>
