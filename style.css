@@ -46,6 +46,7 @@ img#icon-img{
 
 div#body-div{
   max-width: 1100px;
+  min-height: 100%;
   margin: 0 auto;
   padding: 5%;
 }
