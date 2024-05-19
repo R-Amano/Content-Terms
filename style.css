@@ -17,6 +17,10 @@ p{
   color: white;
 }
 
+li{
+  color: white;
+}
+
 body{
   background: #434343;
   margin: 0;
@@ -54,6 +58,10 @@ p#main-p1{
 
 p#main-p2{
   color: #b9c418;
+}
+
+p#alert-p{
+  color: #e06666; 
 }
 
 div#body-div{
