@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../style.css" rel="stylesheet" />
+    <link href="https://lh4.googleusercontent.com/XzkEN3sop8ZlWAMoQVjTcUjDk0J4n9q4BHwHxcYTZfmzNDzf8PfT7jEw4zmuMWOchhKhYyk5n4bkFNtpJ3p3Jd4=w16383" rel="icon" />
+    <title>天乃涼介 - 配布作品利用規約</title>
+  </head>
+
+  <body>
+
+    <header id="header"></header>
+    
+    <div>
+      <div id="body-div">
+        <h1>配布作品（ワールドマップ）利用規約</h1>
+        <div id="content1"></div>
+        <div id="content2"></div>
+        <div id="content3"></div>
+      </div>
+    </div>
+
+    <footer id="footer"></footer>
+
+    <script>
+      fetch('../ra_layout/header.html')
+        .then((response) => response.text())
+        .then((data) => { document.getElementById('header').innerHTML = data;})
+        .catch((error) => { document.getElementById('header').innerHTML = error;});
+      fetch('../ra_layout/footer.html')
+        .then((response) => response.text())
+        .then((data) => { document.getElementById('footer').innerHTML = data;})
+        .catch((error) => { document.getElementById('footer').innerHTML = error;});
+
+        fetch('../terms/terms0.html')
+        .then((response) => response.text())
+        .then((data) => { document.getElementById('content1').innerHTML = data;})
+        .catch((error) => { document.getElementById('content1').innerHTML = error;});
+        fetch('../terms/terms2.html')
+        .then((response) => response.text())
+        .then((data) => { document.getElementById('content2').innerHTML = data;})
+        .catch((error) => { document.getElementById('content2').innerHTML = error;});
+        fetch('../terms/terms5.html')
+        .then((response) => response.text())
+        .then((data) => { document.getElementById('content3').innerHTML = data;})
+        .catch((error) => { document.getElementById('content3').innerHTML = error;});
+    </script>
+  </body>
+</html>
