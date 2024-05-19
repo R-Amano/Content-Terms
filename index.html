@@ -3,10 +3,10 @@
 <html lang="ja">
 
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
-    <link href="https://lh4.googleusercontent.com/XzkEN3sop8ZlWAMoQVjTcUjDk0J4n9q4BHwHxcYTZfmzNDzf8PfT7jEw4zmuMWOchhKhYyk5n4bkFNtpJ3p3Jd4=w16383" rel="icon" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://lh4.googleusercontent.com/XzkEN3sop8ZlWAMoQVjTcUjDk0J4n9q4BHwHxcYTZfmzNDzf8PfT7jEw4zmuMWOchhKhYyk5n4bkFNtpJ3p3Jd4=w16383" rel="icon" />
     <title>天乃涼介 - 配布作品利用規約</title>
   </head>
 
@@ -15,10 +15,25 @@
 
     <div>
       <div id="body-div">
-        <h1>配布作品（リソースパック・アドオン）利用規約</h1>
-        <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+        <h1>配布作品利用規約 一覧</h1>
+        <p id="main-p1">・全文</p>
+        <a href="page1/index.html"><p id="main-p2">https://r-amano.github.io/Content-Terms/page1/</p></a>
+
+        <p id="main-p1">・リソースパック アドオン</p>
+        <a href="page2/index.html"><p id="main-p2">https://r-amano.github.io/Content-Terms/page2/</p></a>
+
+        <p id="main-p1">・ワールド</p>
+        <a href="page3/index.html"><p id="main-p2">https://r-amano.github.io/Content-Terms/page3/</p></a>
+
+        <p id="main-p1">・ゲームマップ</p>
+        <a href="page4/index.html"><p id="main-p2">https://r-amano.github.io/Content-Terms/page4/</p></a>
+
+        <p id="main-p1">・スキン</p>
+        <a href="page5/index.html"><p id="main-p2">https://r-amano.github.io/Content-Terms/page5/</p></a>
       </div>
     </div>
+
+    <footer id="footer"></footer>
 
     <script>
       fetch('ra_layout/header.html')
@@ -28,6 +43,14 @@
         })
         .catch((error) => {
           document.getElementById('header').innerHTML = error;
+        });
+      fetch('ra_layout/footer.html')
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById('footer').innerHTML = data;
+        })
+        .catch((error) => {
+          document.getElementById('footer').innerHTML = error;
         });
     </script>
   </body>
