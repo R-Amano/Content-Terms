@@ -1,9 +1,32 @@
+header {
+  display: flex;
+  background-color: #1d1d1d;
+}
+p#header-p{
+  margin-left: 10px;
+  color: white;
+}
+
 h1{
   color: #b9c418;
   text-align: center;
-  margin-top: "50px";
+}
+
+p{
+  color: white;
 }
 
 body{
   background: #434343;
+  margin: 0;
+}
+
+img#icon-img{
+  margin: 5px 0px 0px 30px;
+}
+
+div#body-div{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px;
 }
