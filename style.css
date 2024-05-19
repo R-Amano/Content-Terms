@@ -1,7 +1,16 @@
 /*all style*/
 h1{
+  color: #ffffff;
+  text-align: center;
+}
+
+h2{
   color: #b9c418;
   text-align: center;
+}
+
+h3{
+  color: #b9c418;
 }
 
 p{

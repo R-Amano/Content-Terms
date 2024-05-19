@@ -10,12 +10,12 @@
 
   <body>
 
-    <header id="headers"></header>
+    <header id="header"></header>
     
     <div>
       <div id="body-div">
         <h1>配布作品（リソースパック・アドオン）利用規約</h1>
-
+        <div id="content1"></div>
       </div>
     </div>
 
@@ -30,6 +30,11 @@
         .then((response) => response.text())
         .then((data) => { document.getElementById('footer').innerHTML = data;})
         .catch((error) => { document.getElementById('footer').innerHTML = error;});
+
+        fetch('../terms/terms0.html')
+        .then((response) => response.text())
+        .then((data) => { document.getElementById('content1').innerHTML = data;})
+        .catch((error) => { document.getElementById('content1').innerHTML = error;});
     </script>
   </body>
 </html>
