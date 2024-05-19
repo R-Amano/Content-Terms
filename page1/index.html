@@ -37,7 +37,10 @@
         .then((response) => response.text())
         .then((data) => { document.getElementById('content1').innerHTML = data;})
         .catch((error) => { document.getElementById('content1').innerHTML = error;});
-
+        fetch('../terms/terms1.html')
+        .then((response) => response.text())
+        .then((data) => { document.getElementById('content2').innerHTML = data;})
+        .catch((error) => { document.getElementById('content2').innerHTML = error;});
         fetch('../terms/terms5.html')
         .then((response) => response.text())
         .then((data) => { document.getElementById('content3').innerHTML = data;})
