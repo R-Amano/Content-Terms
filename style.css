@@ -19,6 +19,7 @@ p{
 
 li{
   color: white;
+  margin-bottom: 2px ;
 }
 
 body{
@@ -61,7 +62,8 @@ p#main-p2{
 }
 
 p#alert-p{
-  color: #e06666; 
+  color: #e06666;
+  margin: 0;
 }
 
 div#body-div{
