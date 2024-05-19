@@ -14,13 +14,10 @@
     
     <div>
       <div id="body-div">
-        <h1>配布作品利用規約【全文】</h1>
+        <h1>配布作品（リソースパック・アドオン）利用規約</h1>
         <div id="content1"></div>
         <div id="content2"></div>
         <div id="content3"></div>
-        <div id="content4"></div>
-        <div id="content5"></div>
-        <div id="content6"></div>
       </div>
     </div>
 
@@ -44,22 +41,10 @@
         .then((response) => response.text())
         .then((data) => { document.getElementById('content2').innerHTML = data;})
         .catch((error) => { document.getElementById('content2').innerHTML = error;});
-        fetch('../terms/terms2.html')
+        fetch('../terms/terms5.html')
         .then((response) => response.text())
         .then((data) => { document.getElementById('content3').innerHTML = data;})
         .catch((error) => { document.getElementById('content3').innerHTML = error;});
-        fetch('../terms/terms3.html')
-        .then((response) => response.text())
-        .then((data) => { document.getElementById('content4').innerHTML = data;})
-        .catch((error) => { document.getElementById('content4').innerHTML = error;});
-        fetch('../terms/terms4.html')
-        .then((response) => response.text())
-        .then((data) => { document.getElementById('content5').innerHTML = data;})
-        .catch((error) => { document.getElementById('content5').innerHTML = error;});
-        fetch('../terms/terms5.html')
-        .then((response) => response.text())
-        .then((data) => { document.getElementById('content6').innerHTML = data;})
-        .catch((error) => { document.getElementById('content6').innerHTML = error;});
     </script>
   </body>
 </html>
