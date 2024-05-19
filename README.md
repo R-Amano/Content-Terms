@@ -18,7 +18,7 @@ https://qiita.com/mzmz__02/items/7bcbce347bc3c5d64b93
 https://qiita.com/d0ne1s/items/5c629bc543e70ed2bf98  
 
 ## 進捗
-リポジトリの目標は達成していません。(おおよそ50%程度)  
+リポジトリの目標は達成していません。(おおよそ80%程度)  
 
 ## ライセンス
 コード、及び文章はMIT Licenseとします。  
