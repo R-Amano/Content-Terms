@@ -32,20 +32,27 @@ body{
 /*header&footer*/
 header{
   display: flex;
-  height: 60;
+  min-width: 220px;
+  height: 60px;
   background-color: #1d1d1d;
 }
 
-a#header-icon{
-  margin: 0px 10px 0px 30px;
+p#header-p{
+  margin: 2px;
+  line-height: 60px;
+  font-size: 1.2em;
+  overflow: hidden;
 }
 
 img#header-img{
-  margin: 8px 0px 0px 0px;
+  width: 46px;
+  height: 46px;
+  margin: 7px 10px 7px 30px;
 }
 
 footer{
   background-color: #7d8509;
+  min-width: 200px;
   padding: 10px;
 }
 
